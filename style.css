@@ -1,4 +1,4 @@
-#flag{
+.flag{
     width: 100px;
     height: 50px;
 }
@@ -44,4 +44,24 @@
     text-align: center;
     font-size: 18px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#candidants{
+    margin-bottom: 10px;
+}
+#field{
+    width: 45vw;
+    height: 40vh;
+    background-image: url(field.png);
+    position: relative;
+    overflow: hidden;
+    cursor: url(CountryPointer.png), pointer;
+    margin: auto;
+}
+#ball{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 55px;
+    height: 55px;
+    transition: all .25s;
 }
