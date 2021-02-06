@@ -54,7 +54,7 @@
     background-image: url(field.png);
     position: relative;
     overflow: hidden;
-    cursor: url(CountryPointer.png), pointer;
+    cursor: url(cusor.png), pointer;
     margin: auto;
 }
 #ball{
@@ -64,4 +64,16 @@
     width: 55px;
     height: 55px;
     transition: all .25s;
+}
+#results{
+    border-top: 3px solid black;
+    font-size: 1.2rem;
+}
+a {
+    padding: 13px;
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: blue;
 }
